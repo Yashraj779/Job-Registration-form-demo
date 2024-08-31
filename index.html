@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeker Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Job Seeker Registration</h1>
+    <form action="next_page.html" method="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+        
+        <label for="jobtitle">Desired Job Title:</label><br>
+        <input type="text" id="jobtitle" name="jobtitle" required><br><br>
+        
+        <label for="experience">Years of Experience:</label><br>
+        <input type="number" id="experience" name="experience" required><br><br>
+        
+        <label for="education">Education Level:</label><br>
+        <input type="text" id="education" name="education" required><br><br>
+        
+        <label for="skills">Skills/Qualifications:</label><br>
+        <textarea id="skills" name="skills" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="resume">Resume Upload:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+        
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions.</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
